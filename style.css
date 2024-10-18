@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  header{
+    background:#004C35
+  }
+  
+  .logo{
+    width: 100px;
+  }
+  
+  .container{
+    width:80%;
+    margin:0 auto;
+  }
+  
+  .flex{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  
+  nav{
+    display:flex;
+    gap:30px;
+    font-family:outfit;
+    text-transform:uppercase
+  }
+  
+  nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    line-height:30px;
+  }
+  
+  .active, nav a:hover{
+    color:#FFCC00;
+    border-bottom: 3px solid #FFCC00;
+  }
+
+  .container2{
+    width:85%;
+    margin:0 auto;
+  }
+  
+  .flex2{
+    display:flex;
+    gap:40px;
+  }
+
+  h1{
+    font-size:45px;
+    font-family: outfit;
+    margin-top:20px;
+    margin-left: 125px; 
+  }
+
+.margin{
+    margin-top:20px ;
+    font-size:20px;
+    font-family: outfit;
+}
+
+
+  .aanmelden{
+    width:250px;
+    height: 90px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: outfit;
+    background-color: #FFCC00;
+    
+  }
+
+  button:hover
+  {cursor: pointer;}    
+
+  .container3{
+    width:85%;
+      margin:0 auto;
+  }
+  
+  .flex3{
+    display:flex;
+      gap:40px;
+    justify-content: flex-end
+  }
+
+ .container4{
+    width:85%;
+    margin:0 auto;
+}
+ 
+.flex4{
+    display:flex;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: center;
+    font-family: outfit;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.alinea2{
+    text-align: center;
+    font-family: outfit;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.flex5{
+  display:flex;
+    gap:40px;
+  justify-content: flex-end;
+}
+
+.container5{
+  width:85%;
+  margin:0 auto;
+  flex-direction: column;
+}
+
+.link{
+  text-decoration: none;
+  color: #FFCC00;
+  font-family: outfit;
+  font-size: 20px;
+  font-weight: 200000000000;
+}
+
